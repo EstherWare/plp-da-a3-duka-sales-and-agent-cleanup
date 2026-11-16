@@ -27,3 +27,7 @@ The agent generator creates 612 transaction rows. Deduplication removes 12 rows,
 - `excel/duka_branch_summary.xlsx` contains the SUMIFS branch table, XLOOKUP region column, and revenue pivot.
 
 If the extract also contained customer phone numbers, those numbers would be personal data under the Kenya Data Protection Act 2019. They should be collected for a defined purpose, minimised, access-controlled, encrypted in transit and at rest, masked or pseudonymised for analysis, retained only as long as necessary, and never exposed in public outputs.
+
+## Google Colab
+
+[Open the Colab notebook](https://colab.research.google.com/drive/1jYdJO9-j4BxmdfImwWanzWjkxZKD4C5E?usp=sharing)
