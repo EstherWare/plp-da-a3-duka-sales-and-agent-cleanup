@@ -25,6 +25,7 @@ The agent generator creates 612 transaction rows. Deduplication removes 12 rows,
 - `outputs/premium_online_coast_capital.csv` contains only Premium Online orders from Nairobi and Mombasa and is written with `index=False`.
 - `outputs/agent_transactions_clean.csv` contains the cleaned, merged transaction data.
 - `excel/duka_branch_summary.xlsx` contains the SUMIFS branch table, XLOOKUP region column, and revenue pivot.
+- These generated deliverables, along with `requirements.txt`, are committed in the repository for review.
 
 If the extract also contained customer phone numbers, those numbers would be personal data under the Kenya Data Protection Act 2019. They should be collected for a defined purpose, minimised, access-controlled, encrypted in transit and at rest, masked or pseudonymised for analysis, retained only as long as necessary, and never exposed in public outputs.
 
